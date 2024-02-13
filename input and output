@@ -1,0 +1,118 @@
+//Write a C++ program to print "Hello World...!"
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello World...!";
+    return 0;
+}
+
+//Write a C++ program to print sample output
+Hello World...!
+Hello World...!
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello World...!";
+    cout<<"\nHello World...!";
+    return 0;
+}
+
+//Write a C program to print sample Output.
+Sample Output:
+Hello     World...!
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello\tWorld...!";
+    return 0;
+}
+
+//Write a program to print a character
+INPUT & OUTPUT FORMAT: 
+Input consists of 1 character. Output consists of 1 character.
+Sample Input:
+A
+Sample Output:
+A
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    char A;
+    cin>>A;
+    cout<<A;
+}
+Ravi and Varma went to a textile shop for festival purchase. Ravi took few T-shirts and went for billing. Varma wants discount on the purchased items. The biller shows computer keyboard and asks to press an alpha numeric key and that key’s ASCII value will be the discounted amount on the purchase. Help Varma to know his discounted amount.
+
+Sample Input:
+A
+Sample Output:
+65
+#include<iostream>
+using namespace std;
+int main()
+{
+    char A;
+    cin>>A;
+    int B=A;
+    cout<<B;
+    return 0;
+}
+//ASCII - American Standard Code for Information Interchange.
+
+Write a program to get a number(ASCII) as input and print its equivalent character.
+You can display a character if you know ASCII code of that character.
+Sample Input:
+103
+Sample Output:
+g
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    char b=a;
+    cout<<b;
+}
+
+Write a program to get a float value from the user and display it.
+Sample Input:
+23.115
+Sample Output:
+23.115000
+INPUT & OUTPUT FORMAT: 
+Input consists of one float value. 
+Output consists of one integer, its highest round off value and its lowest round off value.
+Sample Input:
+23.115
+Sample Output:
+23.115000
+23.115
+23.11
+23.1
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float a;
+    cin>>a;
+    cout<<fixed<<setprecision(6)<<a;
+    cout<<fixed<<setprecision(3)<<"\n"<<a;
+    cout<<fixed<<setprecision(2)<<"\n"<<a;
+    cout<<fixed<<setprecision(1)<<"\n"<<a;
+}
+
+
+
+
+
+
+
+
+
