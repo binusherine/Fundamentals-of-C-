@@ -46,8 +46,8 @@ int main()
     cin>>A;
     cout<<A;
 }
-Ravi and Varma went to a textile shop for festival purchase. Ravi took few T-shirts and went for billing. Varma wants discount on the purchased items. The biller shows computer keyboard and asks to press an alpha numeric key and that key’s ASCII value will be the discounted amount on the purchase. Help Varma to know his discounted amount.
 
+//Ravi and Varma went to a textile shop for festival purchase. Ravi took few T-shirts and went for billing. Varma wants discount on the purchased items. The biller shows computer keyboard and asks to press an alpha numeric key and that key’s ASCII value will be the discounted amount on the purchase. Help Varma to know his discounted amount.
 Sample Input:
 A
 Sample Output:
@@ -62,6 +62,7 @@ int main()
     cout<<B;
     return 0;
 }
+
 //ASCII - American Standard Code for Information Interchange.
 
 Write a program to get a number(ASCII) as input and print its equivalent character.
@@ -107,6 +108,31 @@ int main()
     cout<<fixed<<setprecision(2)<<"\n"<<a;
     cout<<fixed<<setprecision(1)<<"\n"<<a;
 }
+
+Write a program to get an integer from the user and display it.
+INPUT & OUTPUT FORMAT: 
+Input consist of 1 integer. Output consist of 1 integer.
+Sample Input:
+56
+Sample Output:
+56
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    cout<<a;
+}
+
+Write a C program to get a float value from the user and display it in the below-mentioned format.
+HINT: Use ceil() and floor() functions from <math.h> header file.
+Sample Input:
+54.5
+Sample Output:
+54
+55.0
+54.0
 
 
 
